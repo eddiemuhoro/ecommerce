@@ -18,7 +18,7 @@ app.use(morgan("dev"))
 
 app.use(
     cors({
-        origin: 'localhost:3000',
+        origin: 'http://localhost:3000',
     })
 )
 
