@@ -11,14 +11,14 @@ import cors from 'cors'
 
 const app = express()
 app.disable("x-powered-by")
-//chanhetd
+//cha
 
 app.use(express.json())
 app.use(morgan("dev"))
 
 app.use(
     cors({
-        origin: 'http://localhost:3000',
+        origin: '*',
     })
 )
 
